@@ -4,14 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.bershath</groupId>
         <artifactId>web-projects</artifactId>
+        <groupId>org.jboss</groupId>
         <version>1.0-SNAPSHOT</version>
-
     </parent>
 
 
-    <groupId>org.bershath.labs.web</groupId>
+    <groupId>org.jboss.labs.web</groupId>
     <artifactId>servlet-request</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
@@ -30,7 +29,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.4.0</version>
                 <configuration>
-                    <webappDirectory>${basedir}/src/main/webapps</webappDirectory>
+                    <!--webappDirectory>src/main/webapp</webappDirectory-->
                     <outputDirectory>/Users/bershath/apps/jboss/jboss-eap-7.4/standalone/deployments</outputDirectory>
                 </configuration>
             </plugin>

@@ -1,4 +1,4 @@
-package org.bershath.labs.web;
+package org.jboss.labs.web;
 
 
 import javax.servlet.annotation.WebServlet;
